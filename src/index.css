@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -65,4 +66,18 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
+=======
+/* importação da fonta urbanist do google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+/* importação do tailwindcss */
+@import "tailwindcss";
+
+@theme {
+  --font-urbanist: "Urbanist", sans-serif; 
+  --font-roboto: "Roboto", sans-serif; 
+}
+
+html {
+  scroll-behavior: smooth;
+>>>>>>> Stashed changes
 }

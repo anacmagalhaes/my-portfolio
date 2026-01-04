@@ -1,34 +1,33 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import About from "./components/about/About"
+import Contact from "./components/contacts/Contact"
+import Header from "./components/header/Header"
+import Home from "./components/home/Home"
+import Projects from "./components/projects/Projects.tsx"
+import Skills from "./components/skills/Skills"
+
 
 function App() {
-  const [count, setCount] = useState(0)
+
 
   return (
-    <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
+    <div className="bg-gradient-to-b from-[#2c166b] to-[#8769da] scroll-smooth">
+      <Header />
+      <section id="home" className="py-32 scroll-mt-32">
+        <Home />
+      </section>
+      <section id="about" className="py-32 scroll-mt-32">
+        <About />
+      </section>
+      <section id="skills" className="py-32 scroll-mt-32">
+        <Skills />
+      </section>
+      <section id="projects" className="py-32 scroll-mt-32">
+        <Projects />
+      </section>
+      <section id="contact" className="py-32 scroll-mt-32">
+        <Contact />
+      </section>
+    </div>
   )
 }
 

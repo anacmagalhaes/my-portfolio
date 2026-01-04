@@ -1,1 +1,13 @@
+/* importação da fonta urbanist do google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+/* importação do tailwindcss */
 @import "tailwindcss";
+
+@theme {
+  --font-urbanist: "Urbanist", sans-serif; 
+  --font-roboto: "Roboto", sans-serif; 
+}
+
+html {
+  scroll-behavior: smooth;
+}

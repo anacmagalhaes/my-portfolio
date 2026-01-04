@@ -12,21 +12,31 @@ function App() {
   return (
     <div className="bg-gradient-to-b from-[#2c166b] to-[#8769da] scroll-smooth">
       <Header />
-      <section id="home" className="py-32 scroll-mt-32">
-        <Home />
-      </section>
-      <section id="about" className="py-32 scroll-mt-32">
-        <About />
-      </section>
-      <section id="skills" className="py-32 scroll-mt-32">
-        <Skills />
-      </section>
-      <section id="projects" className="py-32 scroll-mt-32">
-        <Projects />
-      </section>
-      <section id="contact" className="py-32 scroll-mt-32">
-        <Contact />
-      </section>
+      <main className="pt-auto">
+        <div className="max-w-6xl mx-auto px-12">
+          <section id="home" className="py-32 scroll-mt-32">
+            <Home />
+          </section>
+
+          <section id="about" className="py-32 scroll-mt-32">
+            <About />
+          </section>
+
+          <section id="skills" className="py-32 scroll-mt-32">
+            <Skills />
+          </section>
+
+          <section id="projects" className="py-32 scroll-mt-32">
+            <Projects />
+          </section>
+
+          <section id="contact" className="py-32 scroll-mt-32">
+            <Contact />
+          </section>
+        </div>
+      </main>
+
+
     </div>
   )
 }

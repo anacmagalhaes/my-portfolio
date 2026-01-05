@@ -8,9 +8,6 @@ const Header = () => {
 
                 <h1 className='text-white text-[22px] font-urbanist'>CAROL MAGALHÃES</h1>
                 <nav className='flex flex-row gap-6'>
-                    <a href='#home' className='text-white hover:text-[#8769da] hover:underline hover:underline-offset-8 font-urbanist text-[18px]'>
-                        Home
-                    </a>
                     <a href='#about' className='text-white hover:text-[#8769da] hover:underline hover:underline-offset-8 font-urbanist text-[18px]'>
                         About
                     </a>

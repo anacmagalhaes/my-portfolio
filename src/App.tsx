@@ -1,8 +1,8 @@
-import About from "./components/about/About"
-import Contact from "./components/contacts/Contact"
-import Header from "./components/header/Header"
-import Projects from "./components/projects/Projects.tsx"
-import Skills from "./components/skills/Skills"
+import About from "./components/About.tsx"
+import Contact from "./components/Contact.tsx"
+import Header from "./components/Header.tsx"
+import Projects from "./components/Projects.tsx"
+import Skills from "./components/Skills.tsx"
 
 
 function App() {
@@ -12,20 +12,20 @@ function App() {
     <div className="bg-gradient-to-b from-[#2c166b] to-[#8769da] scroll-smooth">
       <Header />
       <main className="pt-auto">
-        <div className="overflow-x-hidden">
-          <section id="about" className="py-32 scroll-mt-32">
+        <div className="overflow-x-hidden pt-25">
+          <section id="Sobre Mim" className="py-8 scroll-mt-32">
             <About />
           </section>
 
-          <section id="skills" className="py-32 scroll-mt-32">
+          <section id="Habilidades" className="scroll-mt-32">
             <Skills />
           </section>
 
-          <section id="projects" className="py-32 scroll-mt-32">
+          <section id="Projetos" className="scroll-mt-32">
             <Projects />
           </section>
 
-          <section id="contact" className="py-32 scroll-mt-32">
+          <section id="Contato" className="scroll-mt-32">
             <Contact />
           </section>
         </div>

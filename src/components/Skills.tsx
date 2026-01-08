@@ -29,7 +29,7 @@ const Skills = () => {
         </div>
       </div>
       <div className='p-6 pt-10'>
-        <div className='flex flex-col justify-start items-startlg:flex-row lg:grid lg:grid-cols-4 lg:gap-8'>
+        <div className='flex flex-col justify-start gap-4 items-startlg:flex-row lg:grid lg:grid-cols-4 lg:gap-8'>
           <div className='border-2 p-3 rounded-2xl bg-[#18054d] border-[#563d9c]'>
             <div className='flex flex-row justify-center items-center gap-2 lg:flex-row'>
               <h2 className='font-urbanist text-white font-[20px]'>Frontend</h2>

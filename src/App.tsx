@@ -1,8 +1,9 @@
-import About from "./components/About.tsx"
-import Contact from "./components/Contact.tsx"
-import Header from "./components/Header.tsx"
-import Projects from "./components/Projects.tsx"
-import Skills from "./components/Skills.tsx"
+import { Contact } from "lucide-react"
+import About from "./components/About"
+import Header from "./components/Header"
+import Projects from "./components/Projects"
+import Skills from "./components/Skills"
+import Footer from "./components/Footer.tsx"
 
 
 function App() {
@@ -30,6 +31,7 @@ function App() {
           </section>
         </div>
       </main>
+      <Footer />
 
 
     </div>

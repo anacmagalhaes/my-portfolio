@@ -1,4 +1,3 @@
-import React from 'react'
 import { FaJs } from "react-icons/fa";
 import { BiLogoTypescript } from "react-icons/bi";
 import { SiFlutter } from "react-icons/si";

@@ -17,7 +17,7 @@ const About = () => {
           </h2>
         </div>
         <div className='flex justify-center items-center'>
-          <img src='src/assets/avatar.jpg' className='w-90 rounded-[200px] border-2 border-[#b9a0ff] shadow-2xl shadow-black'></img>
+          <img src='public/images/avatar.jpg' className='w-90 rounded-[200px] border-2 border-[#b9a0ff] shadow-2xl shadow-black'></img>
         </div>
       </div>
     </div>

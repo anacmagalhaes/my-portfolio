@@ -1,6 +1,4 @@
-import React from 'react'
 import Button from './Button'
-import { FaGithub, FaLinkedin, FaWhatsapp } from "react-icons/fa";
 
 const Contact = () => {
   return (

@@ -1,5 +1,3 @@
-import React from 'react'
-import Button from './Button'
 import { FaFlutter } from "react-icons/fa6";
 import { FaReact, FaGooglePlay, FaApple, FaFolder, FaGithub } from "react-icons/fa";
 import { BiLogoTypescript } from "react-icons/bi";

@@ -16,7 +16,7 @@ const Projects = () => {
         <div className="grid grid-cols-1 lg:grid-cols-4 gap-8">
           <div className='border-2 bg-[#18054d] border-[#563d9c] p-2 rounded-2xl shadow-2xl shadow-[#372862] '>
             <div className='flex justify-center items-center'>
-              <img src='src/assets/screens.png' className='h-45 '></img>
+              <img src='public/images/screens.png' className='h-45 '></img>
             </div>
             <div className='flex justify-center items-center flex-col gap-3'>
               <h1 className='font-urbanist text-[#8769da] text-[18px] font-bold'>Aplicativo ENMC & ECTM</h1>
@@ -47,7 +47,7 @@ const Projects = () => {
             </div>
           </div>
           <div className='border-2 bg-[#18054d] border-[#563d9c] p-2 rounded-2xl shadow-2xl shadow-[#372862]'>
-            <img src='src/assets/my-portfolio.png' className='rounded-[10px]'></img>
+            <img src='public/images/my-portfolio.png' className='rounded-[10px]'></img>
             <div className='flex justify-center items-center flex-col gap-3'>
               <h1 className='font-urbanist text-[#8769da] text-[18px] font-bold'>Portfólio</h1>
               <div className='flex flex-wrap gap-2'>
